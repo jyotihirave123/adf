@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeStoragejh",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azurementoringdatalakejh.dfs.core.windows.net"
+		}
+	}
+}
