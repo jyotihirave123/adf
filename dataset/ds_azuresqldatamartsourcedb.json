@@ -1,0 +1,16 @@
+{
+	"name": "ds_azuresqldatamartsourcedb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazuresqldatamartdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimDate"
+		}
+	}
+}
