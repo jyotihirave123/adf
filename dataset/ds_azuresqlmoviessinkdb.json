@@ -1,0 +1,16 @@
+{
+	"name": "ds_azuresqlmoviessinkdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazuresqlmoviesdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimDate"
+		}
+	}
+}
