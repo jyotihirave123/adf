@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mentoring-adf-jh"
+		},
+		"lnkazurementoringstoragejh_connectionString": {
+			"value": ""
+		},
+		"lnkazuresqldatamartdb_password": {
+			"value": ""
+		},
+		"lnkazuresqlmoviesdb_password": {
+			"value": ""
+		},
+		"AzureDataLakeStoragejh_properties_typeProperties_url": {
+			"value": "https://azurementoringdatalakejh.dfs.core.windows.net"
+		},
+		"AzureKeyVaultjh_properties_typeProperties_baseUrl": {
+			"value": "https://mentoring-key-vault-jh.vault.azure.net/"
+		},
+		"Azurementoringstoragejh_properties_typeProperties_sasUri_secretName": {
+			"value": "SASURL"
+		},
+		"lnkazuresqldatamartdb_properties_typeProperties_server": {
+			"value": "azure-mentoring-jh.database.windows.net"
+		},
+		"lnkazuresqldatamartdb_properties_typeProperties_database": {
+			"value": "DataMart"
+		},
+		"lnkazuresqldatamartdb_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"lnkazuresqlmoviesdb_properties_typeProperties_server": {
+			"value": "azure-mentoring-jh.database.windows.net"
+		},
+		"lnkazuresqlmoviesdb_properties_typeProperties_database": {
+			"value": "movies"
+		},
+		"lnkazuresqlmoviesdb_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
