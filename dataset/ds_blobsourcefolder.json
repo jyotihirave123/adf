@@ -1,0 +1,22 @@
+{
+	"name": "ds_blobsourcefolder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazurementoringstoragejh",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
