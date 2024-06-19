@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "DimDate"
+			"table": "ratings_part1"
 		}
 	}
 }
