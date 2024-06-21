@@ -1,0 +1,29 @@
+{
+	"name": "ExcelInputFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurementoringstoragejh",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"dSheetName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().dSheetName",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CustomerInfo.xlsx",
+				"container": "source"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
