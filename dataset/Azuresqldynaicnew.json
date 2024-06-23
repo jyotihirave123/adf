@@ -1,0 +1,24 @@
+{
+	"name": "Azuresqldynaicnew",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazuresqlmoviesdb",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"DsTableNameNew": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().DsTableNameNew",
+				"type": "Expression"
+			}
+		}
+	}
+}
