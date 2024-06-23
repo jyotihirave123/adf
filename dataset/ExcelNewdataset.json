@@ -1,0 +1,29 @@
+{
+	"name": "ExcelNewdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazurementoringstoragejh",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Sheet": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().Sheet",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CustomerInfo.xlsx",
+				"container": "source"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
