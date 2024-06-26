@@ -1,0 +1,11 @@
+{
+	"name": "ADX_adfmentoringjhDB",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataExplorer",
+		"typeProperties": {
+			"endpoint": "https://azurementoringjh.francecentral.kusto.windows.net",
+			"database": "adfmentoringjh"
+		}
+	}
+}
