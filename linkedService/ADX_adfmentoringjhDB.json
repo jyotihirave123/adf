@@ -5,7 +5,7 @@
 		"type": "AzureDataExplorer",
 		"typeProperties": {
 			"endpoint": "https://azurementoringjh.francecentral.kusto.windows.net",
-			"database": "adfmentoringjh"
+			"database": "Sample"
 		}
 	}
 }
