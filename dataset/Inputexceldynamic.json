@@ -1,0 +1,29 @@
+{
+	"name": "Inputexceldynamic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazurementoringstoragejh",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"dsSheetNameDynamic": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().dsSheetNameDynamic",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CustomerInfo.xlsx",
+				"container": "source"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
