@@ -1,0 +1,12 @@
+{
+	"name": "GetStartdateandEnddate",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkazuresqlmoviesdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
